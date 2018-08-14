@@ -16,7 +16,7 @@
 title: Magnus Sundström
 email: kmvsundstrom@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Software developer and consultant based in Stockholm, Sweden. Currently employed at tretton37. Blogging mostly about .NET related development.
+  Software developer and consultant based in Stockholm, Sweden. Currently employed at tretton37 Development. Blogging mostly about .NET related development.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lordpansar
@@ -28,6 +28,14 @@ theme: minima
 plugins:
   - jekyll-feed
 
+  
+# General settings
+site.show_excerpts: true
+page.author: Magnus Sundström
+
+# Global variables
+site.url: https://lordpansar.github.io
+  
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
