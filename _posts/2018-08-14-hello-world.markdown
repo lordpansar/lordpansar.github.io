@@ -9,4 +9,4 @@ Hello world and welcome to my blog!
 
 More posts will follow (hopefully)!
 
-![Laptop computer]({{ "/_assets/images/black-laptop.jpeg" | absolute_url }})
+![Laptop computer]({{ "/assets/images/black-laptop.jpeg" | absolute_url }})
