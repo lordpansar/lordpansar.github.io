@@ -3,4 +3,4 @@ layout: blog
 title: Blog
 permalink: /blog/
 ---
-Blogposts on dev life in general with a focus on .NET
+Blogposts on software development in general with a focus on .NET.
