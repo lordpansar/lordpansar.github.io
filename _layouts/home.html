@@ -1,9 +1,26 @@
 ---
 layout: default
 ---
-
 <div class="home">
-  
-  <a class="twitter-timeline" style="position:absolute; margin:auto;" data-width="100%" data-height="500" data-theme="light" href="https://twitter.com/LordPansar?ref_src=twsrc%5Etfw">Tweets by LordPansar</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h3 class="post-list-heading">{{ page.list_title | default: "Latest posts" }}</h3>
+    <ul class="post-list">
+      {%- for post in site.posts limit:3 -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+          {{ post.excerpt }}
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+  <hr>
+  <a class="twitter-timeline" data-width="100%" data-height="500" data-theme="light" href="https://twitter.com/LordPansar?ref_src=twsrc%5Etfw">Latest tweets by LordPansar</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
