@@ -4,15 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My name is Magnus Sundström. I've been working with software development since 2016. I currently reside in Stockholm, Sweden.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<img src="/assets/images/portrait.jpg" alt="Picture of author" style="width:40%; margin:auto; display:block;"/>
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+My main proficiency is within .NET web applications. I've been a MCP since May 2016.
 
+This blog is powered by [Jekyll][jekyll-organization] and hosted at [Github][github-pages].
 
-[jekyll-organization]: https://github.com/jekyll
+[jekyll-organization]: https://jekyllrb.com/
+[github-pages]: https://pages.github.com/
