@@ -3,4 +3,7 @@
 
 @import "{{ site.theme }}";
 
-//CSS goes here
+.twitter-timeline {
+	margin:auto;
+	display:block;
+}
