@@ -36,7 +36,7 @@ There was nothing much but hairpulling and screaming left. Then I decided to dou
 
 ![List of nuget packages]({{ "/assets/images/sqlite-nugets.png" | absolute_url }})
 
-I had installed "SQLite.Net-PCL" nuget when I should have installed the lowercase "sqlite-net-pcl". To further add to the confusion from the two nugets having the same name, they also have the same name (Frank Krueger).
+I had installed "SQLite.Net-PCL" nuget when I should have installed the lowercase "sqlite-net-pcl". To further add to the confusion from the two nugets having the same name, they also have the same author (Frank Krueger).
 
 After installing the lowercase "sqlite-net-pcl" nuget it worked like a charm.
 
