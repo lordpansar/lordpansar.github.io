@@ -14,7 +14,7 @@ After installing the required SQLite .NET-PCL nuget package, I went forth with s
 var db = new SQLiteConnection(dbPath);
 {% endhighlight %}
 
-While trying to do this, I noticed that the SQLiteConnection class didn't have an overload that matching the number of arguments I was trying to pass.
+While trying to do this, I noticed that the SQLiteConnection class didn't have an overload that matched the number of arguments I was trying to pass.
 This made me scratch my head, since according to the tutorial and my previous experience there should be one. I recieved the following error message: 
 
 {% highlight c# %}
