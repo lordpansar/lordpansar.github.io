@@ -34,11 +34,13 @@ After taking the following measures:
 
 There was nothing much but hairpulling and screaming left. Then I decided to double check the nugets one last time. That's when I saw it:
 
-![Laptop computer keyboard]({{ "/assets/images/sqlite-nugets.png" | absolute_url }})
+![List of nuget packages]({{ "/assets/images/sqlite-nugets.png" | absolute_url }})
 
 I had installed "SQLite.Net-PCL" nuget when I should have installed the lowercase "sqlite-net-pcl". To further add to the confusion from the two nugets having the same name, they also have the same name (Frank Krueger).
 
 After installing the lowercase "sqlite-net-pcl" nuget it worked like a charm.
+
+Conclusion: if you're experiencing the same conundrum while setting up a SQLite DB in Xamarin.Forms, double check that you're not a fool for the old SQLite nuget shuffle!
 
 [sqlite-tutorial]: https://docs.microsoft.com/en-us/xamarin/android/data-cloud/data-access/using-sqlite-orm
 [source-sqlnet]: https://github.com/praeclarum/sqlite-net
