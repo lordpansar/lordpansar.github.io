@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "'SqliteConnection' does not contain a constructor that takes 1 arguments (CS1729) and the importance of installing the correct nuget"
+title:  "'SQLiteConnection' does not contain a constructor that takes 1 arguments (CS1729) and the importance of installing the correct nuget"
 date:  2018-08-17 11:35:00 +0200
 categories: blog xamarin
 ---
