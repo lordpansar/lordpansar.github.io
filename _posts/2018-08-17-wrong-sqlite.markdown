@@ -38,6 +38,8 @@ There was nothing much but hairpulling and screaming left. Then I decided to dou
 
 I had installed "SQLite.Net-PCL" nuget when I should have installed the lowercase "sqlite-net-pcl". To further add to the confusion from the two nugets having the same name, they also have the same author (Frank Krueger).
 
+(Clarification: in the screenshot above I have installed the correct nuget)
+
 After installing the lowercase "sqlite-net-pcl" nuget it worked like a charm.
 
 Conclusion: if you're experiencing the same conundrum while setting up a SQLite DB in Xamarin.Forms, double check that you're not a fool for the old SQLite nuget shuffle!
