@@ -2,7 +2,8 @@
 layout: post
 title:  "'SQLiteConnection' does not contain a constructor that takes 1 arguments (CS1729) and the importance of installing the correct nuget"
 date:  2018-08-17 11:35:00 +0200
-categories: blog xamarin
+categories: Xamarin
+permalink: blog/wrong-sqlite
 ---
 While setting up a SQLite DB in a Xamarin.Forms app for the first time in a while, I stumbled upon an error that made me pull my hair.
 
