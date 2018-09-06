@@ -1,5 +1,5 @@
 https://lordpansar.se
 https://lordpansar.se/about/
 https://lordpansar.se/blog/
-https://lordpansar.se/blog/general/2018/08/14/hello-world.html
-https://lordpansar.se/blog/xamarin/2018/08/17/wrong-sqlite.html
+https://lordpansar.se/blog/hello-world.html
+https://lordpansar.se/blog/wrong-sqlite.html
