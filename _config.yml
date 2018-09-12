@@ -4,7 +4,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Magnus Sundström
-email: contact@lordpansar.se
+email: contact@magnussundstrom.se
 description: >- # this means to ignore newlines until "baseurl:"
   Software developer and consultant based in Stockholm, Sweden. Currently employed at tretton37 Development. Blogging about coding in general, .NET development in particular.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -25,7 +25,7 @@ site.show_excerpts: true
 page.author: Magnus Sundström
 
 # Global variables
-site.url: https://lordpansar.github.io
+site.url: https://magnussundstrom.se
   
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
