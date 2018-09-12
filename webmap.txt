@@ -1,5 +1,5 @@
-https://lordpansar.se
-https://lordpansar.se/about/
-https://lordpansar.se/blog/
-https://lordpansar.se/blog/hello-world.html
-https://lordpansar.se/blog/wrong-sqlite.html
+https://magnussundstrom.se
+https://magnussundstrom.se/about/
+https://magnussundstrom.se/blog/
+https://magnussundstrom.se/blog/hello-world.html
+https://magnussundstrom.se/blog/wrong-sqlite.html
