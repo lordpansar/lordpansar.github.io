@@ -47,7 +47,7 @@ The mayonnaise is really what makes or break it.
 
 <br>
 <h4>Mob programming and the power of flow - Woody Zuill</h4>
-![Woody Zuill on stage]({{ "/assets/images/leetspeak/2018/woodyzuill1440.jpg" | absolute_url }})
+![Woody Zuill on stage]({{ "/assets/images/leetspeak/2018/woodyzuill1440.JPG" | absolute_url }})
 
 Watching Woody talk is always a pleasure. It doesn't really matter what his session is about.
 If he's talking, I'm there to listen. Working in IT since the early 1980's, Woody has gained
