@@ -1,0 +1,74 @@
+---
+layout: post
+title:  "Leetspeak 2018 recap"
+date:  2018-10-14 16:00:00 +0200
+categories: Conferences
+permalink: blog/leetspeak-2018-recap
+---
+I thought I'd take a minute to reflect on and go through some highlights from Leetspeak 2018.
+
+Please note that these are just my personal opinions. The sessions that I don't mention weren't inferior in any way,
+but in this blog post I've decided to focus on the ones who stood out to a little bit extra to me.
+
+In case you haven't heard about it before, [Leetspeak][leetspeak-2018] is a single day, single track dev conference
+for developers, by developers. The conference is arranged by [tretton37][tretton37-link] and I think it's a really 
+cozy and intimate conference, delivering high quality content. The tickets are only 200 Swedish krona (roughly 20 €)
+ and always takes place on a saturday, so you don't need to take time off from work in order to attend.
+
+<br>
+<h1>Sessions</h1>
+
+<h4>Why I'm not leaving .NET - Mark Rendle</h4>
+![Mark Rendle on stage]({{ "/assets/images/leetspeak/2018/markrendle1440.jpg" | absolute_url }})
+
+Mark Rendle took the stage with his talk "Why I'm not leaving .NET". A counter action to all the blog posts
+that people feel urged to write when they're leaving .NET, telling the world why they're doing it. In the
+session, Mark went over a couple of .NET-related techniques and frameworks that he sees as good reasons to
+keep working in .NET.
+
+Besides Mark being a fun and charismatic speaker, the session stood out thanks to Mark co-presenting
+the session together with his daughter, Willow. Willow joined Mark on stage for the final segment of the
+talk, doing a live demo in Unity. Kudos to you Willow, I'd never had the courage to do something like that
+when I was in your age!
+
+<br>
+<h4>Apps, algorithms and abstractions: decoding our digital world - Dylan Beattie</h4>
+![Dylan Beattie on stage]({{ "/assets/images/leetspeak/2018/dylanbeattie1440.jpg" | absolute_url }})
+
+Dylan Beattie deboned what actually happens when you send someone a cat picture. From when the
+light is reflected from the cat and into the camera lense, how the image is processed and optimized and
+sent via different protocols to the recieving device. Dylan explained these complex concepts and technologies
+that all of us take for granted in a humorous and pedagogical way.
+
+Starting with the absolut lowest of fis, via comparing image processing to a swedish [smörgåstårta][smorgastarta].
+Dylan used the audience as a barometer for how many ingredients you can remove and still call it a smörgåstårta. 
+Spoiler: you can safely remove up to 73% of the ingredients before the dish is no longer considered a smörgåstårta.
+The mayonnaise is really what makes or break it.
+
+<br>
+<h4>Mob programming and the power of flow - Woody Zuill</h4>
+![Woody Zuill on stage]({{ "/assets/images/leetspeak/2018/woodyzuill1440.jpg" | absolute_url }})
+
+Watching Woody talk is always a pleasure. It doesn't really matter what his session is about.
+If he's talking, I'm there to listen. Working in IT since the early 1980's, Woody has gained
+a tremendous knowledge of how to make dev teams work efficiently and deliver value. For many
+he's mainly known as a strong advocate for mob programming and the no estimates movement.
+
+Being the humble man that he is, Woody clearly states in his talk that he's not here to tell us what
+to do, but to inspire us by telling us what he did.
+
+The thing that I brought with me from his session is how I can think about and minimize disruptions
+in work flow. For example: one of the most commons flow disruptions is being impeded by waiting for
+ information or a clarification from someone else. If we can minimize these times of stand still, we
+ can go back to doing what we want to do - write code and deliver value to our clients and employers.
+
+
+ <br><br>
+ <h4>Already looking forward to Leetspeak 2019!</h4>
+
+
+
+
+[leetspeak-2018]: https://leetspeak.se/2018/#about
+[tretton37-link]: https://tretton37.com
+[smorgastarta]: https://en.wikipedia.org/wiki/Sm%C3%B6rg%C3%A5st%C3%A5rta
