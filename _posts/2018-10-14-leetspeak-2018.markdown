@@ -33,7 +33,7 @@ when I was in your age!
 
 <br>
 <h4>Apps, algorithms and abstractions: decoding our digital world - Dylan Beattie</h4>
-![Dylan Beattie on stage]({{ "/assets/images/leetspeak/2018/dylanbeattie1440.jpg" | absolute_url }})
+![Dylan Beattie on stage]({{ "/assets/images/leetspeak/2018/dylanbeattie1440.JPG" | absolute_url }})
 
 Dylan Beattie deboned what actually happens when you send someone a cat picture. From when the
 light is reflected from the cat and into the camera lense, how the image is processed and optimized and
