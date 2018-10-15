@@ -18,7 +18,7 @@ cozy and intimate conference, delivering high quality content. The tickets are o
 <br>
 <h1>Sessions</h1>
 
-<h4>Why I'm not leaving .NET - Mark Rendle</h4>
+<h4>Why I'm not leaving .NET - Mark & Willow Rendle</h4>
 ![Mark Rendle on stage]({{ "/assets/images/leetspeak/2018/markrendle1440.jpg" | absolute_url }})
 
 Mark Rendle took the stage with his talk "Why I'm not leaving .NET". A counter action to all the blog posts
@@ -43,7 +43,7 @@ that all of us take for granted in a humorous and pedagogical way.
 Starting with the absolut lowest of fis, via comparing image processing to a swedish [smörgåstårta][smorgastarta].
 Dylan used the audience as a barometer for how many ingredients you can remove and still call it a smörgåstårta. 
 Spoiler: you can safely remove up to 73% of the ingredients before the dish is no longer considered a smörgåstårta.
-The mayonnaise is really what makes or break it.
+The mayonnaise is really what makes or breaks it.
 
 <br>
 <h4>Mob programming and the power of flow - Woody Zuill</h4>
