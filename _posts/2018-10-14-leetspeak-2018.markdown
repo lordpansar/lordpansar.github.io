@@ -41,7 +41,10 @@ sent via different protocols to the recieving device. Dylan explained these comp
 that all of us take for granted in a humorous and pedagogical way.
 
 Starting with the absolut lowest of fis, via comparing image processing to a swedish [smörgåstårta][smorgastarta].
-Dylan used the audience as a barometer for how many ingredients you can remove and still call it a smörgåstårta. 
+Dylan used the audience as a barometer for how many ingredients you can remove and still call it a smörgåstårta.
+The same concept applies to digital photos - how much can we comprimate and adjust image settings and still consider
+it a photo of decent quality?
+ 
 Spoiler: you can safely remove up to 73% of the ingredients before the dish is no longer considered a smörgåstårta.
 The mayonnaise is really what makes or breaks it.
 
