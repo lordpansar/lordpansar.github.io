@@ -35,8 +35,5 @@ Besides installing the NUnit and NUnit3TestAdapter nugets...
 
 Clean and build solution and run your tests. Hopefully all tests will be found and ran now!
 
-Kind of weird that none of the tutorials I checked mentioned this? I even went through a few forums discussing these very same
-error messages, and there were quite a few who devs experienced the same problem.
-
 
 [pluralsight]: https://pluralsight.com
