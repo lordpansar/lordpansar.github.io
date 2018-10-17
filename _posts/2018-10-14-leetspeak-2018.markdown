@@ -37,7 +37,7 @@ when I was in your age!
 
 Dylan Beattie deboned what actually happens when you send someone a cat picture. From when the
 light is reflected from the cat and into the camera lense, how the image is processed and optimized and
-sent via different protocols to the recieving device. Dylan explained these complex concepts and technologies
+sent via different protocols to the receiving device. Dylan explained these complex concepts and technologies
 that all of us take for granted in a humorous and pedagogical way.
 
 Starting with the absolut lowest of fis, via comparing image processing to a swedish [smörgåstårta][smorgastarta].

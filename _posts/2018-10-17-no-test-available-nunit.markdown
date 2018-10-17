@@ -7,7 +7,7 @@ permalink: blog/no-test-available-nunit
 ---
 I was following a tutorial for NUnit testing frameworking, but my tests wouldn't run.
 
-I recieved the follow error messages:
+I received the follow error messages:
 
 {% highlight c# %}
 System.IO.FileNotFoundException: 
