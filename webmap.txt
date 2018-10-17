@@ -4,3 +4,4 @@ https://magnussundstrom.se/blog/
 https://magnussundstrom.se/blog/hello-world.html
 https://magnussundstrom.se/blog/wrong-sqlite.html
 https://magnussundstrom.se/blog/leetspeak-2018-recap.html
+https://magnussundstrom.se/blog/no-test-available-nunit.html
