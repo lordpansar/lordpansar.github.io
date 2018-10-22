@@ -1,13 +1,12 @@
 ---
 layout: post
-title:  "'System.IO.FileNotFoundException: Unable to find tests' in NUnit"
+title:  "'System.IO.FileNotFoundException: Unable to find tests' in NUnit and xUnit"
 date:  2018-10-17 17:00:00 +0200
 categories: ['.NET', 'Testing']
 permalink: blog/no-test-available-nunit
 ---
-I was following a tutorial for NUnit testing frameworking, but my tests wouldn't run.
 
-I received the follow error messages:
+If you're receiving the follow error messages while setting up xUnit or NUnit for a project:
 
 {% highlight c# %}
 System.IO.FileNotFoundException: 
@@ -22,10 +21,8 @@ Make sure that test discoverer & executors are registered and
 platform & framework version settings are appropriate and try again.
 {% endhighlight %}
 
-I browsed multiple other tutorials and skimmed through a course on [Pluralsight][pluralsight] before I found stumbled on
-the fix by accident.
 
-Besides installing the NUnit and NUnit3TestAdapter nugets...
+Besides installing the obvious nugets (NUnit for example below)...
 
 ![NUnit nugets]({{ "/assets/images/nunit/nunit-nugets.PNG" | absolute_url }})
 
@@ -34,6 +31,3 @@ Besides installing the NUnit and NUnit3TestAdapter nugets...
 ![Microsoft test SDK]({{ "/assets/images/nunit/test-sdk.PNG" | absolute_url }})
 
 Clean and build solution and run your tests. Hopefully all tests will be found and ran now!
-
-
-[pluralsight]: https://pluralsight.com
