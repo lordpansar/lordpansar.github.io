@@ -47,7 +47,7 @@ to an existing project, replace all mentions of the project "TagHelperDemo" with
 Start out by creating a folder named "TagHelpers"  where you find fitting in your web project. For this 
 tutorial, we're going to place it on the project root.
 
-Inside of the TagHelpers folder, create a separate C# class for every taghelper you want to create.<br>
+Inside of the TagHelpers folder, create a separate C# class for every tag helper you want to create.<br>
 Make sure that your new classes ends with the suffix -TagHelper.<br><br>
 For this example, create a class named "PrinterTagHelper.cs".
 
@@ -113,9 +113,9 @@ It even has intellisense!
 
 <h4 class="bold-headline">Step 4: Lo and behold</h4>
 
-Run your application and navigate to the view(s) where you imported your custom tag helper.
-The text you entered in the Text attribute should now be printed the number of times you entered in the Number
-attribute.
+Run your application and navigate to the view(s) where you imported and implemented your custom tag helper.
+The string you set as value in the Text attribute should now be printed the number of times you set as value
+in the Number attribute.
 
 ![Finished product]({{ "/assets/images/custom-taghelpers/finished-product.PNG" | absolute_url }})
 
