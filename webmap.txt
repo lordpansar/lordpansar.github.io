@@ -5,3 +5,4 @@ https://magnussundstrom.se/blog/hello-world
 https://magnussundstrom.se/blog/wrong-sqlite
 https://magnussundstrom.se/blog/leetspeak-2018-recap
 https://magnussundstrom.se/blog/no-test-available-nunit
+https://magnussundstrom.se/blog/custom-taghelpers
