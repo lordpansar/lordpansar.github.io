@@ -1,7 +1,7 @@
 https://magnussundstrom.se
 https://magnussundstrom.se/about/
 https://magnussundstrom.se/blog/
-https://magnussundstrom.se/blog/hello-world.html
-https://magnussundstrom.se/blog/wrong-sqlite.html
-https://magnussundstrom.se/blog/leetspeak-2018-recap.html
-https://magnussundstrom.se/blog/no-test-available-nunit.html
+https://magnussundstrom.se/blog/hello-world
+https://magnussundstrom.se/blog/wrong-sqlite
+https://magnussundstrom.se/blog/leetspeak-2018-recap
+https://magnussundstrom.se/blog/no-test-available-nunit
