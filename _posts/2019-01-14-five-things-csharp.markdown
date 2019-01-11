@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "5 things I did not know about C#"
-date:  2019-01-11 09:00:00 +0200
+date:  2019-01-14 09:00:00 +0200
 categories: ['.NET', 'C#']
 permalink: blog/five-things-csharp
 ---
