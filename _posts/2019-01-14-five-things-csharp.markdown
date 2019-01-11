@@ -7,7 +7,8 @@ permalink: blog/five-things-csharp
 ---
 
 I've been doing a series of tweets called "Things I did not know about C#" for a while, where I've written shortly about
-features and behaviours that I've stumbled upon without knowing you could do that in C#.
+features and behaviours in C#. Either ones that I've stumbled upon or ones I have not fully understood how they work
+under the hood.
 
 I thought I should gather the first five "lessons" in a blog post. This also gives me some more space to add context and
 explanation to the examples than can be fitted into a tweet.
@@ -89,7 +90,7 @@ static IEnumerable GetNumbersYield()
 {% endhighlight %}
 
 If we instead look at the example below, we've returned a list of integers instead of using yield.
-These two apps does the same thing, but in this second example we initialize a list and populate it
+These two examples does the same thing, but in this second example we initialize a list and populate it
 with the numbers 1-5. Thereafter the whole list is returned, looped through and printed. As opposed
 to the yield solution, a collection must be initialized and kept in memory.
 
@@ -117,7 +118,8 @@ static IEnumerable GetNumbersList()
 {% endhighlight %}
 
 The community is in a divide about about this one, but in my environment (without using fancy performance
-analyzers) the yield approach is about 50% faster than the "classic" approach.
+analyzers) the yield approach is about 50% faster than the "classic" approach when I've done some testing 
+for comparison.
 <br>
 <h1>#4: The dynamic keyword</h1>
 
@@ -195,7 +197,6 @@ public class TypeB
 
 
 {% endhighlight %}
-
 
 <br>
 <h1>#5: The volatile keyword</h1>
