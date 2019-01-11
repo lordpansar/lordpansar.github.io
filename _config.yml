@@ -19,6 +19,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-target-blank
+future: false
 
   
 # General settings
