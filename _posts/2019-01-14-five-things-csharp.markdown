@@ -6,8 +6,8 @@ categories: ['.NET', 'C#']
 permalink: blog/five-things-csharp
 ---
 
-I've been doing a series of tweets called "Things I did not know about C#" for a while, where I've written shortly about
-features and behaviours in C#. Either ones that
+I've been doing a series of tweets with the somewhat misleading name "Things I did not know about C#" for a while, where
+I've written shortly about features and behaviours in C#. Either ones that
 
 - I've stumbled upon
 - knew they they existed but never used
