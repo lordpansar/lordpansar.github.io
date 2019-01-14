@@ -7,8 +7,11 @@ permalink: blog/five-things-csharp
 ---
 
 I've been doing a series of tweets called "Things I did not know about C#" for a while, where I've written shortly about
-features and behaviours in C#. Either ones that I've stumbled upon or ones I have not fully understood how they work
-under the hood.
+features and behaviours in C#. Either ones that
+
+- I've stumbled upon
+- knew they they existed but never used
+- I have not fully understood how they work under the hood
 
 I thought I should gather the first five "lessons" in a blog post. This also gives me some more space to add context and
 explanation to the examples than can be fitted into a tweet.
