@@ -11,7 +11,7 @@ I've written shortly about features and behaviours in C#. Either ones that
 
 - I've stumbled upon
 - found interesting
-- knew they they existed but never used
+- I knew existed but I've never used
 - I have not fully understood how they work under the hood
 
 I thought I should gather the first five "lessons" in a blog post. This also gives me some more space to add context and
