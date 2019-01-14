@@ -10,6 +10,7 @@ I've been doing a series of tweets with the somewhat misleading name "Things I d
 I've written shortly about features and behaviours in C#. Either ones that
 
 - I've stumbled upon
+- found interesting
 - knew they they existed but never used
 - I have not fully understood how they work under the hood
 
