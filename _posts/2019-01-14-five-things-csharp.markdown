@@ -26,8 +26,8 @@ sense. But after all, these are things I did not know about C# - not necessarily
 I've created an empty interface, IMyPrettyInterface. The classes TypeA and TypeB are simple POCO classes,
 consisting of two properties each. Both of the classes implements IMyPrettyInterface.
 
-Normally it wouldn't be possible to pass instances of these two classes in the same collection, since the
-collection would have been forced to host only one type of object.
+Normally it wouldn't be possible to pass instances of these two classes into a generic collection. The
+other option would've been to initialize a list of type object.
 
 But by declaring a list of an interface, you can add any object that implements said interface to the collection.
 
