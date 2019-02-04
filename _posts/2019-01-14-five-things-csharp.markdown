@@ -128,7 +128,7 @@ for comparison.
 <h1>#4: The dynamic keyword</h1>
 
 Dynamic typed variables in C#?! Isn't static typing one of the main benefits of using C#?
-But before you bring out your garlic, crufixes and wooden stakes, read this through:
+But before you bring out your garlic, crucifixes and wooden stakes, read this through:
 
 {% highlight c# %}
 dynamic foo = 123;
