@@ -1,0 +1,76 @@
+---
+layout: post
+title:  "What's new in Visual Studio 2019?"
+date:  2019-04-03 11:30:00 +0200
+categories: ['.NET']
+permalink: blog/vs-2019
+---
+
+The 2nd of April 2019 marked the release the IDE Visual Studio 2019. A preview version was released earlier in 2019, but now the stable version
+is available to the general public. After watching the live streamed release event I thought I'd write a few lines about some of the more interesting
+new features and changes to Visual Studio.
+
+So if you didn't watch the release event or had the time to read up, here's a short recap:
+
+<hr>
+<br>
+<h1>Live Share installed by default</h1>
+One of the major themes for VS 2019 and the launch event seemed to be collabing and enabling remote work. Live Share has been available for some time
+as an extra extension (a plugin), but is now installed by default in the IDE.
+
+Live Share allows you see a friend or coworkers editor and it's changes in real time, no matter what platforms you are on. You can use a PC running Windows with
+VS Enterprise and do a live share with a person using VS Code on a Mac.
+
+Mind that this is not a screen share - you're actually streaming the content in the IDE, not the screen image. The caster can restrict how much the viewer
+can interact with the IDE, whether the viewer is only supposed to view or to interact more hands on.
+ 
+<br>
+<h1>IntelliCode - IntelliSense on steroids</h1>
+IntelliSense is a feature that helps programmers autocomplete methods, properties etc when typing. This helps the programmer minimize typos and increases
+typing speed. The suggestions are usually ordered alphabetically and updated character by character when typing.
+
+IntelliCode now utilizes AI and suggests what you're probably looking for by analyzing the code you're writing. IntelliCode is trained on 2000 open source
+projects on GitHub to learn what to suggest and when.
+
+IntelliCode only supported C# in the preview, but now also supports C++ and XAML.
+
+<br>
+<h1>Smarter auto refactoring</h1>
+VS has been able to do some auto refactoring (á la e g Resharper) for a couple of version, but Microsoft has kicked it up a notch in VS 2019. Place your marker
+at any code block and press "ctrl + .". You will now be presented with a number of refactoring suggestions where applicable.
+
+<br>
+<h1>Data breakpoints for C#</h1>
+Data breakpoints has been available for some time for C++, but is now also available for C#. Data breakpoints allows you to set a breakpoint on a data value or an
+object. When that value is changed the code execution is paused, rather than when a specific line is hit.
+
+<br>
+<h1>A preview to C# 8.0</h1>
+When this blog post is written in early April 2019, C# 8.0 is not yet released. VS 2019 does despite this have support for some of the new features coming with C# 8.0.
+
+This includes, but is not limited to:
+
+- Default interface methods
+- Async streams
+- Improvements to pattern matching
+- Nullable reference types
+- New syntax for expressing a range of values
+- New syntax for switch expressions
+
+<br>
+<h1>Optimizations for Xamarin development</h1>
+I like developing mobile apps with Xamarin, but sometimes Xamarin can really be a pain in the ass when disrupting the work flow. Especially the spin up time for the
+emulators has been a source for much frustration. The emulators now have gotten a haul over and spin up times has been greatly reduced.
+
+A property editor for Xamarin.Forms controls. You can now edit the properties with point and click and in real time see what the changes looks like, instead of typing
+the property values in your XAML code.
+
+<hr>
+<br>
+Please not that this is just a handful of what's new in VS 2019. More extensive information can be found [here][docs-2019].
+
+So what are you waiting for? [Download Visual Studio 2019 today!][download-vs-2019] All features from Professional edition is now included in the free Community edition.
+The only difference is in licensing.
+
+[download-vs-2019]: https://visualstudio.microsoft.com/vs/
+[docs-2019]: https://docs.microsoft.com/en-us/visualstudio/ide/whats-new-visual-studio-2019?view=vs-2019
