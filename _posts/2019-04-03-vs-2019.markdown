@@ -7,7 +7,7 @@ permalink: blog/vs-2019
 ---
 
 The 2nd of April 2019 marked the release of the IDE Visual Studio 2019. A preview version was released earlier in 2019, but now the stable version
-is available to the general public. After watching the live streamed release event I thought I'd write a few lines about some of the more interesting
+is available to the general public. After watching the live streamed release event I thought I'd write a few lines about some of the IMHO more interesting
 new features and changes to Visual Studio.
 
 So if you didn't watch the release event or had the time to read up, here's a short recap:
