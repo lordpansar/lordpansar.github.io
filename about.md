@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-My name is Magnus Sundström. I've been working with software development since 2016. I currently reside in Stockholm, Sweden.
+My name is Magnus Sundström. I've been working with software development since 2016, currently at [One Agency][oa-link]. I currently reside in Stockholm, Sweden.
 
 <img src="/assets/images/portrait600w.jpg" alt="Picture of author" style="width:40%; margin:auto; display:block;"/>
 
@@ -14,3 +14,4 @@ This blog is powered by [Jekyll][jekyll-organization] and hosted at [Github][git
 
 [jekyll-organization]: https://jekyllrb.com/
 [github-pages]: https://pages.github.com/
+[oa-link]: https://oneagency.se
