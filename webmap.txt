@@ -7,3 +7,4 @@ https://magnussundstrom.se/blog/leetspeak-2018-recap
 https://magnussundstrom.se/blog/no-test-available-nunit
 https://magnussundstrom.se/blog/custom-taghelpers
 https://magnussundstrom.se/blog/five-things-csharp
+https://magnussundstrom.se/blog/vs-2019
