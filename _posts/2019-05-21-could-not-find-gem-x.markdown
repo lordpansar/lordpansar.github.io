@@ -27,7 +27,7 @@ Ok. That's weird. Liquid should've been installed with the Jekyll bundle. Let's 
 $ bundle update jekyll
 {% endhighlight %}
 
-Still no luck. The error message persists. Let try to install Liquid specifically:
+Still no luck. The error message persists. Let's try to install Liquid specifically:
 
 {% highlight shell_session %}
 $ gem install liquid
