@@ -40,7 +40,7 @@ custom tag helpers enters the picture.
 
 In this tutorial we're going to create a custom tag helper that prints a piece of text X number of times.
 
-Start off by creating a new ASP.NET Core MVC or Razor Pages project. If you're applying this functionality
+Start off by creating a new ASP.NET Core MVC or Razor Pages project and naming it "TagHelperDemo". If you're applying this functionality
 to an existing project, replace all mentions of the project "TagHelperDemo" with your project name.
 
 <h4>Step 1: Add new files</h4>
