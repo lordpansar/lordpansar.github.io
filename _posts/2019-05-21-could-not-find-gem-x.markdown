@@ -68,7 +68,8 @@ Done installing documentation for liquid after 0 seconds
 {% endhighlight %}
 
 After this I kept running jekyll-serve and repeating the above process until I had adjusted the versions of all the required gems.
-After that, I could run my site locally. But it didn't feel right to use outdated gems, so I tried the 'bundle update jekyll' again.
+After that, I could run my site locally. But it didn't feel right to use outdated gems, so I tried the 'bundle update jekyll' commando
+ again.
 
 And what do you know, all the gems were updated to the latest version and I was now able to run the site locally.
 
