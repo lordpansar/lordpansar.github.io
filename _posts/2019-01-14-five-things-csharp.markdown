@@ -10,9 +10,9 @@ I've been doing a series of tweets with the somewhat misleading name "Things I d
 I've written shortly about features and behaviours in C#. Either ones that
 
 - I've stumbled upon
-- found interesting
+- I've found interesting
 - I knew existed but I've never used
-- I have not fully understood how they work under the hood
+- I've not fully understood how they work under the hood
 
 I thought I should gather the first five "lessons" in a blog post. This also gives me some more space to add context and
 explanation to the examples than can be fitted into a tweet.
