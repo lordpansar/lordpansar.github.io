@@ -56,7 +56,7 @@ really clean and easy to read solution that is also compatible with async method
 {% highlight c# %}
 var user = GetUserById(123);
 
-Console.WriteLine($"Name: {user.Name} Age: {user.Age}");
+Console.WriteLine($"Name: {user.name} Age: {user.age}");
 [Output: "Name: John Smith Age: 25"]
 
 public static (string name, int age) GetUserById(int id)
