@@ -1,0 +1,88 @@
+---
+layout: post
+title:  "A review of NDepend"
+date:  2019-08-17 11:00:00 +0200
+categories: ['.NET']
+permalink: blog/ndepend
+---
+
+This is a review of [NDepend][official-site], an extension tool for Visual Studio. It was created to give
+developers and architects insight into their systems and applications, but also to help in further decisions
+regarding architecture and development.
+
+But exactly how does NDepend help you in writing better code?
+
+<h3>Code analysis</h3>
+
+The developers of NDepend say on their site that "NDepend allows your team to accurately gauge the overall
+health of your application, no matter how complex it is".
+
+NDepend as a tool helps you analyze your .NET code. When using NDepend to analyze your code base, the tool
+does checks against a number of predefined standards, called "rules" in order to detect code smell.
+
+![Error log view]({{ "/assets/images/ndepend/error-log.png" | absolute_url }})
+
+As you can see in the screenshot above, after analysis the tool points out which rules have been broken or not.
+You also get information on the number of occurences and their severity.
+
+NDepend comes with roughly 150 predefined rules out of the box. Every rule also comes with a description and
+suggestions on how to resolve the identified issue.
+
+Don't like the rules provided in the tool? The default rules can easily be edited to fit with your own or 
+your team's preferences. You can also write your own custom rules for your specific needs. The rules are written
+in something the developers of NDepend call CQLinq, which is quite easy to pick up and understand if you're
+familiar with C#.
+
+![Example of CQLinq]({{ "/assets/images/ndepend/cqlinq.png" | absolute_url }})
+
+Above is a snippet of CQLinq from one of the predefined rules.
+
+<h3>Technical debt and statistics</h3>
+
+Ndepend's static code analysis also helps you calculate the technical debt in your project and when it will
+reach a breaking point. This is when the time "earned" from not fixing a problem will even out with the cost
+of not fixing it.
+
+![Example of technical debt]({{ "/assets/images/ndepend/technical-debt.png" | absolute_url }})
+
+The time resolving the technical debt is of course a very rough estimate - of course it's really hard (if not 
+impossible) to measure and predict a metric like that. I think that it should be seen more as a baseline to see
+if the debt increases or decreases when changes are done to the code base, rather than an actual time estimate.
+If you disagree with the time estimates, you can always customize the C# formulas doing the calculations.
+
+Perhaps the feature I like the most is being able to gather statistics on trends over time - all packaged in
+handy charts for presentation. Pretty much everything can be measured - code coverage, number of issues, number
+of rule violations, technical debt, number of lines in the code base etc.  
+
+<h3>Graphic analysis</h3>
+
+"NDepend's reporting and analysis helps architects and developers to communicate and reduce confusion."
+
+Besides static code analysis, NDepend can also help you visualize your code base by autogeneration of a number
+of charts. No more outdated diagrams, since the diagrams are generated directly from your own codebase!
+
+The tool can generate charts for e g all dependencies in your app. 
+
+![Part of a dependecy graph]({{ "/assets/images/ndepend/dependency-tree.png" | absolute_url }})
+
+Another type of graph is the treemap. The components of your app or system are represented proportionally in size to the
+amount of lines they consist off. In the example below the rectangles are also color coded after the components cyclomatic
+complexity.
+
+![Example of NDepend tree map]({{ "/assets/images/ndepend/tree-map.png" | absolute_url }})
+
+<h3>Summary</h3>
+
+NDepend comes at a bit hefty price tag for the amateur programmer. A standard license costs €399 per year, but
+you can try it out for two weeks for free. [Click here for more info and download][demo].
+
+Installing updates to the product has proven to be a bit cumbersome as of august 2019, but according to the 
+developers this is something they're working on.
+
+Overall, NDepend is a nice tool with great features. It's definitely worth checking out, especially if you're
+an architect working with a bit more complex systems.
+
+All testing for this review has been done in Visual Studio 2019 Professional.
+
+[official-site]: https://www.ndepend.com/
+[demo]: https://www.ndepend.com/download
