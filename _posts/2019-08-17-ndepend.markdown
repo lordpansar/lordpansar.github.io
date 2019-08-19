@@ -40,8 +40,8 @@ Above is a snippet of CQLinq from one of the predefined rules.
 <h3>Technical debt and statistics</h3>
 
 Ndepend's static code analysis also helps you calculate the technical debt in your project and when it will
-reach a breaking point. This is when the time "earned" from not fixing a problem will even out with the cost
-of not fixing it.
+reach a breaking point. This is when the time "earned" from not fixing a problem will even out with the "cost"
+of fixing it.
 
 ![Example of technical debt]({{ "/assets/images/ndepend/technical-debt.PNG" | absolute_url }})
 
