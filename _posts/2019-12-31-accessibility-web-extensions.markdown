@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Testing accessibility using Web Accessibility Checker"
-date:  2019-06-24 11:30:00 +0200
+date:  2020-12-31 11:30:00 +0200
 categories: ['.NET', 'Design', 'UX']
 permalink: blog/accessibility-web-extensions
 ---
