@@ -20,7 +20,7 @@ health of your application, no matter how complex it is".
 NDepend as a tool helps you analyze your .NET code. When using NDepend to analyze your code base, the tool
 does checks against a number of predefined standards, called "rules" in order to detect code smell.
 
-![Error log view]({{ "/assets/images/ndepend/error-log.png" | absolute_url }})
+![Error log view]({{ "/assets/images/ndepend/error-log.PNG" | absolute_url }})
 
 As you can see in the screenshot above, after analysis the tool points out which rules have been broken or not.
 You also get information on the number of occurences and their severity.
@@ -33,7 +33,7 @@ your team's preferences. You can also write your own custom rules for your speci
 in something the developers of NDepend call CQLinq, which is quite easy to pick up and understand if you're
 familiar with C#.
 
-![Example of CQLinq]({{ "/assets/images/ndepend/cqlinq.png" | absolute_url }})
+![Example of CQLinq]({{ "/assets/images/ndepend/cqlinq.PNG" | absolute_url }})
 
 Above is a snippet of CQLinq from one of the predefined rules.
 
@@ -43,7 +43,7 @@ Ndepend's static code analysis also helps you calculate the technical debt in yo
 reach a breaking point. This is when the time "earned" from not fixing a problem will even out with the cost
 of not fixing it.
 
-![Example of technical debt]({{ "/assets/images/ndepend/technical-debt.png" | absolute_url }})
+![Example of technical debt]({{ "/assets/images/ndepend/technical-debt.PNG" | absolute_url }})
 
 The time resolving the technical debt is of course a very rough estimate - of course it's really hard (if not 
 impossible) to measure and predict a metric like that. I think that it should be seen more as a baseline to see
@@ -63,13 +63,13 @@ of charts. No more outdated diagrams, since the diagrams are generated directly 
 
 The tool can generate charts for e g all dependencies in your app. 
 
-![Part of a dependecy graph]({{ "/assets/images/ndepend/dependency-tree.png" | absolute_url }})
+![Part of a dependecy graph]({{ "/assets/images/ndepend/dependency-tree.PNG" | absolute_url }})
 
 Another type of graph is the treemap. The components of your app or system are represented proportionally in size to the
 amount of lines they consist off. In the example below the rectangles are also color coded after the components cyclomatic
 complexity.
 
-![Example of NDepend tree map]({{ "/assets/images/ndepend/tree-map.png" | absolute_url }})
+![Example of NDepend tree map]({{ "/assets/images/ndepend/tree-map.PNG" | absolute_url }})
 
 <h3>Summary</h3>
 
