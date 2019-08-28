@@ -142,3 +142,8 @@ public override void Process(TagHelperContext context, TagHelperOutput output)
     }
 }
 {% endhighlight %}
+
+<br>
+Code examples for the above tutorial are [available here][repo].
+
+[repo]: https://github.com/lordpansar/customtaghelpers/
