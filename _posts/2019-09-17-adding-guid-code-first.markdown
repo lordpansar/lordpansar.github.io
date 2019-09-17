@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Adding a GUID to an existing table in a EF code first migration"
+title:  "Adding a GUID to an existing table in an EF code first migration"
 date:  2019-09-17 06:00:00 +0200
 categories: ['.NET', 'Entity Framework Core', 'C#']
 permalink: blog/add-guid-ef-code-first
