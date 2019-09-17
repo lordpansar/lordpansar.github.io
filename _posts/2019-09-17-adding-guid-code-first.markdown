@@ -7,7 +7,7 @@ permalink: blog/add-guid-ef-code-first
 ---
 
 The other day I was trying to add a new column to an existing table using Entity Framework Core.
-The column should hold a unique GUID for each row as a default value. Easier said than done.
+The column was supposed to hold a unique GUID for each row. Easier said than done.
 
 After making my changes to my entity class, I ran the add-migration command in the package manager console.
 
