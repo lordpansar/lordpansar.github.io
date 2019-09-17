@@ -16,7 +16,20 @@ PM> add-migration MyPurdyMigration
 {% endhighlight %}
 
 In the migration file generated, I experimented with setting the defaultValue parameter to different takes
-on a new GUID object, but it ended up with EF inserting the same GUID value in all rows when I ran the update-database
+on a new GUID object. E.g:
+
+{% highlight c# %}
+protected override void Up(MigrationBuilder migrationBuilder)
+{
+    migrationBuilder.AddColumn<Guid>(
+    name: "UniqueId",
+    table: "Orders",
+    nullable: false,
+    defaultValue: Guid.NewGuid());
+} 
+{% endhighlight %}
+
+But it ended up with EF inserting the same GUID value in all rows when I ran the update-database
 command. Not very distinct and unique.
 
 ![A database column with identical values]({{ "/assets/images/ef-guid/not-unique-guids.PNG" | absolute_url }})
