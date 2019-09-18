@@ -9,8 +9,14 @@ permalink: blog/add-guid-ef-code-first
 The other day I was trying to add a new column to an existing table using Entity Framework Core.
 The column was supposed to hold a unique GUID for each row. Easier said than done.
 
-After making the appropriate changes to my entity class (adding a GUID property named UniqueId to the class
-and decorating the property with a DatabaseGeneratedOption.Identity attribute), I ran the add-migration command
+After making the appropriate changes to my entity class...
+
+{% highlight c# %}
+[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+public Guid UniqueId { get; set; }
+{% endhighlight %}
+
+... I ran the add-migration command
 in the package manager console.
 
 {% highlight shell_session %}
