@@ -73,8 +73,8 @@ complexity.
 
 <h3>Summary</h3>
 
-NDepend comes at a bit hefty price tag for the amateur programmer. A standard license costs €399 per year, but
-you can try it out for two weeks for free. [Click here for more info and download][demo].
+NDepend comes at a bit hefty price tag for the amateur programmer. At the time of publishing, a standard license costs €399
+per year, but you can try it out for two weeks for free. [Click here for more info and download][demo].
 
 Installing updates to the product has proven to be a bit cumbersome as of august 2019, but according to the 
 developers this is something they're working on.
