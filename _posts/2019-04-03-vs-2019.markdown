@@ -36,7 +36,7 @@ IntelliCode only supported C# in the preview, but now also supports C++ and XAML
 
 <br>
 <h1>Smarter auto refactoring</h1>
-VS has been able to do some auto refactoring (á la e g Resharper) for a couple of version, but Microsoft has kicked it up a notch in VS 2019. Place your marker
+VS has been able to do some auto refactoring (á la e g Resharper) for a couple of versions, but Microsoft has kicked it up a notch in VS 2019. Place your marker
 at any code block and press "ctrl + .". You will now be presented with a number of refactoring suggestions where applicable.
 
 <br>
