@@ -5,7 +5,7 @@ layout: default
   {{ content }}
   <hr>
   {%- if site.posts.size > 0 -%}
-    <h3 class="post-list-heading">{{ page.list_title | default: "Latest posts" }}</h3>
+    <h3 class="post-list-heading">{{ page.list_title | default: "Five latest posts" }}</h3>
     <ul class="post-list">
       {%- for post in site.posts limit:4 -%}
       <li>
