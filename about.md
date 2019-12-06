@@ -10,7 +10,8 @@ My name is Magnus Sundström. I've been working with software development since 
 
 My main proficiency is within .NET web applications. I've been a MCP since May 2016 and MCSA (Web Applications) since December 2018.
 
-Feel free to share, copy and distribute the content of this blog, but I always appreciate credits, shout outs and links to the original source 😊
+
+Feel free to share, copy and distribute the content of this blog. But I always appreciate credits, shout outs and links to the original source 😊
 
 This blog is powered by [Jekyll][jekyll-organization] and hosted at [Github][github-pages].
 
