@@ -1,6 +1,8 @@
 https://magnussundstrom.se
 https://magnussundstrom.se/about/
 https://magnussundstrom.se/blog/
+https://magnussundstrom.se/404/
+https://magnussundstrom.se/wp-admin/
 https://magnussundstrom.se/blog/hello-world
 https://magnussundstrom.se/blog/wrong-sqlite
 https://magnussundstrom.se/blog/leetspeak-2018-recap
