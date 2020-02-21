@@ -14,3 +14,4 @@ https://magnussundstrom.se/blog/vs-2019
 https://magnussundstrom.se/blog/could-not-find-gem-x
 https://magnussundstrom.se/blog/ndepend
 https://magnussundstrom.se/blog/add-guid-ef-code-first
+https://magnussundstrom.se/blog/bash-npm-command-not-found
