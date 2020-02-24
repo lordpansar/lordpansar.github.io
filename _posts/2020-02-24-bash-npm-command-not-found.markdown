@@ -13,6 +13,8 @@ $ create-react-native-app my-fancy-project
 -bash: create-react-app: command not found
 {% endhighlight %}
 
+What the frak does that mean?
+
 Apparently this problems stems from NPM not being able to find the files needed to perform this operation. It turns out that I didn't have a correct
 path set on my machine.
 
