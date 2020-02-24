@@ -15,7 +15,7 @@ $ create-react-native-app my-fancy-project
 
 What the frak does that mean?
 
-Apparently this problems stems from NPM not being able to find the files needed to perform this operation. It turns out that I didn't have a correct
+Apparently this problem stems from NPM not being able to find the files needed to perform this operation. It turns out that I didn't have a correct
 path set on my machine.
 
 <h4>Step 1: Finding your way</h4>
