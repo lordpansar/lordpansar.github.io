@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Scaffolding error 'The specified deps.json [path] does not exist.' in .NET Core"
-date:  2020-06-08 09:00:00 +0200
+date:  2020-06-08 07:00:00 +0200
 categories: ['.NET Core']
 permalink: blog/deps-json-does-not-exist
 ---
