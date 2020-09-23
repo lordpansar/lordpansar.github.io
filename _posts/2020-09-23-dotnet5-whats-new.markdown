@@ -14,7 +14,7 @@ September 2020 marked the release of .NET 5 RC1, with a release for first stable
 One of the goals with .NET 5 was to create one .NET platform. Fusing .NET Framework, .NET Core and Mono/Xamarin into one.
 There will only be one SDK. No matter if you’re making a desktop application, a web API or a mobile application - you’ll be using the same base class libraries and common APIs.
 
-![The .NET 5 eco system]({{ "/assets/images/dotnet5/dotnet5_platform.PNG" | absolute_url }})
+![The .NET 5 eco system]({{ "/assets/images/dotnet5/dotnet5_platform.png" | absolute_url }})
 *Illustration courtesy of Microsoft*
 
 <h4>Performance improvements</h4>
