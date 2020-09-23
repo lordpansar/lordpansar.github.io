@@ -16,3 +16,4 @@ https://magnussundstrom.se/blog/ndepend
 https://magnussundstrom.se/blog/add-guid-ef-code-first
 https://magnussundstrom.se/blog/bash-npm-command-not-found
 https://magnussundstrom.se/blog/deps-json-does-not-exist
+https://magnussundstrom.se/blog/dotnet5-whats-new
