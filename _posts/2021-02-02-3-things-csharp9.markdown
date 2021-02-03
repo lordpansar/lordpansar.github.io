@@ -12,7 +12,7 @@ permalink: blog/3-things-csharp9
 Please notice: in order to be able to use C# 9 in your projects you need to install the .NET 5 on your machine and also target your project for .NET 5 as well.
 [Click here for instructions on how to install and target .NET 5][install-post].
 <br><br>
-<h4>New pattern matching keywords</h4>
+<h4>Updated pattern matching</h4>
 
 In C# 9 pattern matching has become more semantic in it's syntax, giving you the option to describe conditions and queries with words instead of symbols
 (!=, ==, && etc). 
@@ -43,7 +43,7 @@ COMPARED TO
 
 var fruits = list.Where(fruit => fruit != "banana");
 
-//OUTPUT: apple, orange, lemon kiwi, kumquat
+//OUTPUT: apple, orange, lemon, kiwi, kumquat
 
 {% endhighlight %}
 
@@ -126,7 +126,7 @@ public class Car
     public int ConstructionYear { get; set; }
 }
 
-Car car = new("Yellow", 2018);
+Car myPrettyCar = new("Yellow", 2018);
 
 {% endhighlight %}
 
