@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using git reset in GitKraken"
-date:  2021-08-10 07:00:00 +0200
+date:  2021-08-10 10:00:00 +0200
 categories: ['Git', 'GitKraken']
 permalink: blog/reset-in-gitkraken
 ---
