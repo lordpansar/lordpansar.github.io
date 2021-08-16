@@ -31,7 +31,8 @@ screw ups. I'll explain the differences shortly.
 <br>
 <h4>Soft reset</h4>
 
-After making a soft reset, notice that all commit(s) made after the commit we resetted to now are gone.
+After making a soft reset, notice that all commit(s) made after the commit we resetted to now are gone. There were 4 commits, now
+it's only 3 left.
 
 ![A commit history view in GitKraken after a soft reset has been made]({{ "/assets/images/gitkraken-reset/soft_reset.PNG" | absolute_url }})
 
@@ -61,7 +62,7 @@ changes. Everything has been discarded. No changes are staged nor unstaged.
 
 Resetting can be a very destructive action if used improperly. In the examples above we have only resetted a single commit.
 
-Imagine that you are trying to make a reset to a commit 20 commits behind the last one. If go forward with this, you're probably now left with
+Imagine that you are trying to make a reset to a commit 20 commits behind the last one. If you go forward with this, you're probably now left with
 a whole lot of uncommited and unstaged changes. And all your resetted commit structure (which files and changes were associated to each commit),
 commit names etc are now lost in time and space in your repo. And if you've accidentally made a hard reset but there were some things you wanted to keep - then you're really in trouble.
 
