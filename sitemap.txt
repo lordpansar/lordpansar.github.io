@@ -21,3 +21,4 @@ https://magnussundstrom.se/blog/contentful-specify-environment
 https://magnussundstrom.se/blog/installing-dotnet5
 https://magnussundstrom.se/blog/3-things-csharp9
 https://magnussundstrom.se/blog/reset-in-gitkraken
+https://magnussundstrom.se/blog/remove-diag-setting
