@@ -28,7 +28,7 @@ And finally we need the name of the diagnostic setting we're about to remove. Th
 
 ![The diagnostic settings view in Azure]({{ "/assets/images/remove-diag/setting-name.PNG" | absolute_url }})
 
-Save the resource ID, subscription ID and diagnostic setting name, we will need them later in the process. 
+Save the resource ID, subscription ID and diagnostic setting name. We will need them later in the process. 
 
 <h4>Step 2</h4>
 
@@ -50,13 +50,14 @@ PS C:\WINDOWS\system32> Set-AzContext -Subscription "xxxxxxxx-xxxx-xxxx-xxxx-xxx
 
 <h4>Step 4</h4>
 
-To remove the diagnostic setting, run the following command. Replace MyResourceID and MyDiagnosticSetting with the corresponding data from step 1.
+To remove the diagnostic setting, run the following command. Replace MyResourceID and MyDiagnosticSetting with your corresponding data from step 1.
+The command flags specify which diagnostic setting that should be removed from which resource.
 
 {% highlight powershell %}
 PS C:\WINDOWS\system32> Remove-AzDiagnosticSetting -ResourceId "MyResourceID" -Name MyDiagnosticSetting
 {% endhighlight %}
 
-Now you should see something like this in your Powershell window:
+If all went well you should now see something like this in your Powershell window:
 
 {% highlight powershell %}
 RequestId                            StatusCode
@@ -64,7 +65,7 @@ RequestId                            StatusCode
 xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx         OK
 {% endhighlight %}
 
-If all went well, the diagnostic setting shold now also be gone in the Azure portal.
+The diagnostic setting should now also be gone in the Azure portal.
 
 [Click here to read official Microsoft docs on the Set-AzContext command][setcontext-link]
 
