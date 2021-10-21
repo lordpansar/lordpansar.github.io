@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Removing diagnostic settings in Azure"
-date:  2021-10-21 06:00:00 +0200
+date:  2021-10-21 05:00:00 +0200
 categories: ['Azure', 'Powershell']
 permalink: blog/remove-diag-setting
 ---
