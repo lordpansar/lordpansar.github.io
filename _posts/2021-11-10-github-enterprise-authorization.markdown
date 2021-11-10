@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Authenticate GitKraken towards Github Enterprise"
-date:  2021-11-09 06:00:00 +0200
+date:  2021-11-10 05:00:00 +0200
 categories: ['Git', 'GitKraken']
 permalink: blog/authenticate-github-enterprise
 ---
