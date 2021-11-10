@@ -15,7 +15,7 @@ Log in to your Github Enterprise organization. Click the top right icon to open 
 
 In the next view, click 'Developer settings' in the left hand menu. Then click 'Personal access tokens'.
 
-![The personal access token view in Github]({{ "/assets/images/github-authentication/pat-view.PNG" | absolute_url }})
+![The personal access token view in Github]({{ "/assets/images/github-authentication/pat-view.png" | absolute_url }})
 
 Click the 'Generate new token' button.
 
@@ -24,7 +24,7 @@ Click the 'Generate new token' button.
 Now you're going to create the access token. Although it's not required, it's a good idea to add a note on what this token is used for.
 E.g. 'GitKraken'. This will make it easier to keep track of your tokens if you've generated multiple ones.
 
-![The token generation view in Github]({{ "/assets/images/github-authentication/create-pat.PNG" | absolute_url }})
+![The token generation view in Github]({{ "/assets/images/github-authentication/create-pat.png" | absolute_url }})
 
 Then select expiration date. Although 'No expiration' is an option, it's considered a best practice to set an expiration date.
 This way you need to shift your tokens every once in a while which is better from a security point of view.
@@ -40,7 +40,7 @@ When you're feeling ready, click the 'Generate token' button in the bottom of th
 Now that your token has been created, you will be prompted with this view. Make sure to copy the token string. After you leave this view or refresh your browser
 you won't be able to retrieve the token string again and you will need to regenerate it.
 
-![The view after the token has been generated]({{ "/assets/images/github-authentication/after.PNG" | absolute_url }})
+![The view after the token has been generated]({{ "/assets/images/github-authentication/after.png" | absolute_url }})
 
 Depending on your organizations configuration, you might need to configure SSO before you're able to use your token. To do this, click 'Configure SSO' and log
 in to your identity provider. You can also do this at a later time.
@@ -51,7 +51,7 @@ You're now ready to add your access token to GitKraken. Start up your GitKraken 
 
 Click the 'Integrations' tab and then the 'Github Enterprise' tab.
 
-![The Github enterprise connection view]({{ "/assets/images/github-authentication/connect-gitkraken.PNG" | absolute_url }})
+![The Github enterprise connection view]({{ "/assets/images/github-authentication/connect-gitkraken.png" | absolute_url }})
 
 Add your host domain and your token string to the corresponding field in the form. Click the 'Connect' button.
 
