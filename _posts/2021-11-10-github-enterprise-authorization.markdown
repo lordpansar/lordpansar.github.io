@@ -21,8 +21,8 @@ Click the 'Generate new token' button.
 
 <h4>Step 2</h4>
 
-Now you're going to create the access token. Although it's not required, it's a good idea to add a note on what this token is used for.
-E.g. 'GitKraken'. This will make it easier to keep track of your tokens if you've generated multiple ones.
+Now you're ready to create the access token. Although it's not required, it's a good idea to add a note on what this token is used for.
+E.g. 'GitKraken on work laptop'. This will make it easier to keep track of your tokens if you've generated multiple ones.
 
 ![The token generation view in Github]({{ "/assets/images/github-authentication/create-pat.png" | absolute_url }})
 
