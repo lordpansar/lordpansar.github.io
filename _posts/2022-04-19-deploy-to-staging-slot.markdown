@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Deploy to Azure web app staging slot using Github Actions"
+title:  "Deploy to Azure web app deployment slot using Github Actions"
 date:  2022-04-19 05:00:00 +0200
 categories: ['Azure']
-permalink: blog/deploy-to-staging-slot
+permalink: blog/deploy-to-deployment-slot
 ---
 
 tl;dr: use the production slot's app name and the staging slot's publish profile and slot name.
@@ -12,7 +12,7 @@ Deployment slots is a great feature for Azure web apps. Deployment slots gives y
 out your code changes in an isolated environment with a separate configuration. It also allows for swift rollbacks if things go south after a deploy.
 
 BUT. Deploying your app to a deployment slot is not as straight forward as deploying to a web app without deployment slots enabled. In this blog
-post I'll go through the process and the things you need to think about when using Github Actions to deploy to an Azure web app staging slot.
+post I'll go through the process and the things you need to think about when using Github Actions to deploy to an Azure web app deployment slot.
 
 I'll assume that you're already familiar with deployment slots and already have your environments set up. If not,  please reference the
 [official documentation from Microsoft][slots-documentation]. I'll also assume that you're familiar with Github Actions and YAML.
