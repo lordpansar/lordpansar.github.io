@@ -30,7 +30,7 @@ PRODUCTION SLOT, but the publishing profile from the STAGING SLOT. We also need 
 
 Log in to the Azure portal and navigate to your web app's production slot.
 
-![The app name property of a web app]({{ "/assets/images/deployment-slots/app-name.png" | absolute_url }})
+![The app name property of a web app]({{ "/assets/images/deployment-slots/app-name.PNG" | absolute_url }})
 
 The highlighted piece of text above is your resource's app name. Copy this and save it for step 4. If you prefer you can also click 'JSON View' in the
 top right corner in the same view and copy the 'name' value (without quotation marks) from the JSON definition.
@@ -41,7 +41,7 @@ top right corner in the same view and copy the 'name' value (without quotation m
 Now navigate to your staging slot. Click the 'Get publish profile' button. A file containing your staging slot's publish profile will now be downloaded
 to your machine.
 
-![The publish profile button in the web app blade]({{ "/assets/images/deployment-slots/publish-profile.png" | absolute_url }})
+![The publish profile button in the web app blade]({{ "/assets/images/deployment-slots/publish-profile.PNG" | absolute_url }})
 
 The entire content of the downloaded file makes up the publish profile value which we'll use in step 4.
 
@@ -51,7 +51,7 @@ The entire content of the downloaded file makes up the publish profile value whi
 When you created the staging slot, you assigned it a name. If you've forgotten what that name was, you can find it by navigating to the staging slot in
 the Azure portal.
 
-![The slot name property]({{ "/assets/images/deployment-slots/slot-name.png" | absolute_url }})
+![The slot name property]({{ "/assets/images/deployment-slots/slot-name.PNG" | absolute_url }})
 
 The highlighted text is your staging slot's name. Copy this and save it for step 4.
 
