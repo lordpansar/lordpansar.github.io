@@ -6,7 +6,7 @@ categories: ['Git']
 permalink: blog/pull-request-gitkraken
 ---
 
-Pull requests is considered more or less industry standard and best practice when using Git in your projects. When you open a pull request you're essentially
+Pull requests are considered more or less industry standard and best practice when using Git in your projects. When you open a pull request you're essentially
 saying "Yo, look at these changes I made to the project. How do you like them?". This approach allows collaborators and coworkers to review your changes and
 trying them out in an isolated environment before merging (or denying) them into the repository.
 
