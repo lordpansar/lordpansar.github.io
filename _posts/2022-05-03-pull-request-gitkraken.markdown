@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Creating a pull request in GitKraken"
-date:  2022-05-03 05:00:00 +0200
+date:  2022-05-03 04:00:00 +0200
 categories: ['Git']
 permalink: blog/pull-request-gitkraken
 ---
