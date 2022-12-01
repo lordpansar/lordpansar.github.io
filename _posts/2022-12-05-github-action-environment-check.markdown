@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Environment check in Github Actions"
-date:  2022-11-29 05:00:00 +0200
+date:  2022-12-05 05:00:00 +0200
 categories: ['Devops', 'Github']
 permalink: blog/github-action-environment-check
 ---
