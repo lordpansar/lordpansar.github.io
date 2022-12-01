@@ -23,3 +23,6 @@ https://magnussundstrom.se/blog/3-things-csharp9
 https://magnussundstrom.se/blog/reset-in-gitkraken
 https://magnussundstrom.se/blog/remove-diag-setting
 https://magnussundstrom.se/blog/authenticate-github-enterprise
+https://magnussundstrom.se/blog/deploy-to-deployment-slot
+https://magnussundstrom.se/blog/pull-request-gitkraken
+https://magnussundstrom.se/blog/github-action-environment-check
