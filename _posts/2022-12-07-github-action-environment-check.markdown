@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Environment check in Github Actions"
-date:  2022-12-05 05:00:00 +0200
+date:  2022-12-07 05:00:00 +0200
 categories: ['Devops', 'Github']
 permalink: blog/github-action-environment-check
 ---
 
-In a project I've been working on we faced a problem. We used Github Actions to handle our CI/CD. We wanted to reuse our deployment scripts across all
-environments for each app, giving us less code to maintain.
+In a project I've been working on we faced a problem. While using Github Actions to handle our CI/CD, we wanted to reuse our deployment scripts across all
+environments for each app. Thus giving us less code to maintain.
 
 The plan was to set up identical secret keys (with different values though) in two different Github repo environments. The actions would trigger on
 changes to either the dev branch or the main branch. The source code from each branch would then be deployed to either the dev or production environment,
