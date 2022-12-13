@@ -48,7 +48,7 @@ jobs: #collection of jobs
   set-environment: #this is a job named 'set-environment'
     runs-on: ubuntu-latest #your preferred OS
     outputs: #the env value needs to be exposed as an output in order to be reached from other jobs
-      current_env: ${{ steps.set_env.outputs.current_env }} #output variable to store the relevant environment
+      current_env: ${% raw %}{{ steps.set_env.outputs.current_env }}{% endraw %} #output variable to store the relevant environment
     steps:
       - name: Check if prod
         if: endsWith(github.ref, '/main') #if the triggering branch is 'main'
