@@ -3,7 +3,7 @@ layout: post
 title:  "How to retrieve a window stuck outside the screen"
 date:  2023-03-08 05:00:00 +0200
 categories: ['Windows 10', 'Windows 11']
-permalink: blog/github-action-environment-check
+permalink: blog/window-outside-screen
 ---
 
 Has this ever happened to you? You've launched an app or switched monitors and a window gets stuck outside your screen, and you can't pull it back in.
