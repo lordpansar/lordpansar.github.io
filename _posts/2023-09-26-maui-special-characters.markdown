@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Special characters in Maui/Xamarin path"
-date:  2023-09-19 05:00:00 +0200
+date:  2023-09-26 05:00:00 +0200
 categories: ['Xamarin', 'Maui']
 permalink: blog/maui-special-characters
 ---
 
-I had problems on my current Windows 10 machine when doing cross platform mobile applications developement in .NET.
+I had problems on my current Windows 10 machine when doing cross platform mobile applications development in .NET.
 
 Whenever I was trying to build or run an Android application in either Xamarin or Maui I got the following error message:
 
@@ -18,9 +18,10 @@ Turns out that Android (or Microsoft?) doesn't like special characters. And sinc
 
 <h4>How to fix this?</h4>
 
-After reaching out in variuos Microsoft and Android forums with little to no luck, out of the blue I received an email with a solution to the problem.
+After reaching out in various Microsoft and Android forums with little to no luck, out of the blue I received an email from a fellow developer with a 
+solution to the problem.
 
-In your CLI of choice (I used Windows default command prompt), run the following command:
+In Windows default command prompt, run the following command:
 
 {% highlight powershell %}
 mklink /D C:\Users\{faulty username from error message} C:\Users\{username with correct spelling}
@@ -38,4 +39,4 @@ We've now created a symbolic link. A symbolic link is a file system object that 
 
 This solved the problem for me, and I am now able to run and build Android applications on my machine.
 
-Mad props to Jeppe S for providing me with the above solution <3 People like you make me keep my faith in mankind!
+Mad props to Jeppe S for providing me with the above solution <3 People like you make me not lose my faith in mankind!
