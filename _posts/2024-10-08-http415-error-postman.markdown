@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Resolving HTTP 415 error in Postman"
-date:  2024-10-04 05:00:00 +0200
+date:  2024-10-08 05:00:00 +0200
 categories: ['Postman', 'REST', 'API']
 permalink: blog/http415-error-postman
 ---
