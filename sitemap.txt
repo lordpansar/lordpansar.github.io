@@ -29,3 +29,5 @@ https://magnussundstrom.se/blog/github-action-environment-check
 https://magnussundstrom.se/blog/window-outside-screen
 https://magnussundstrom.se/blog/maui-special-characters
 https://magnussundstrom.se/blog/domain-verification-azure
+https://magnussundstrom.se/blog/http415-error-postman
+https://magnussundstrom.se/blog/gitkraken-clone
