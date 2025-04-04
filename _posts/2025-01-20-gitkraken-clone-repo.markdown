@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cloning a repo in GitKraken"
-date:  2025-01-20 04:00:00 +0200
+date:  2025-01-20 04:00:00 +0100
 categories: ['GitKraken', 'Git']
 permalink: blog/gitkraken-clone
 ---
