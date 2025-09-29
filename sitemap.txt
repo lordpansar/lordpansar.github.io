@@ -31,3 +31,4 @@ https://magnussundstrom.se/blog/maui-special-characters
 https://magnussundstrom.se/blog/domain-verification-azure
 https://magnussundstrom.se/blog/http415-error-postman
 https://magnussundstrom.se/blog/gitkraken-clone
+https://magnussundstrom.se/blog/prettify-swagger
