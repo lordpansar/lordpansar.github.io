@@ -6,8 +6,10 @@ categories: ['Swagger', '.NET', "API", "OpenAPI"]
 permalink: blog/prettify-swagger
 ---
 
-By default C# enums are rendered as their numeric value when part of a JSON response in Swagger. This is how to
-make sure that the enum's text value is rendered.
+By default, C# enums are serialized to their underlying numeric values when included in a JSON response.
+This is what you’ll see not only in Swagger, but also in tools like Postman or Insomnia, since they simply display whatever your .NET API outputs.
+
+If you want the enum name (it's string representation) to appear instead of the numeric value, you need to adjust the JSON serialization settings.
 
 For example, let's say that we have an API endpoint that returns an instance of the User class below.
 
