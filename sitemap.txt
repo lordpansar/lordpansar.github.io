@@ -33,3 +33,4 @@ https://magnussundstrom.se/blog/http415-error-postman
 https://magnussundstrom.se/blog/gitkraken-clone
 https://magnussundstrom.se/blog/prettify-swagger
 https://magnussundstrom.se/blog/gitkraken-ai-commit-message
+https://magnussundstrom.se/blog/android-emulator-special-characters
