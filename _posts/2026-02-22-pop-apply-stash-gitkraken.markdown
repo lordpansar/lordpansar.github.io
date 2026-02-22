@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Apply stash vs Pop stash in GitKraken - what’s the difference?"
-date:  2026-02-22 04:00:00 +0100
+date:  2026-02-22 04:00:00 +0200
 categories: ['Git', 'GitKraken']
 permalink: blog/pop-apply-stash-gitkraken
 ---

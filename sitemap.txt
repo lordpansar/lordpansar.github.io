@@ -34,3 +34,4 @@ https://magnussundstrom.se/blog/gitkraken-clone
 https://magnussundstrom.se/blog/prettify-swagger
 https://magnussundstrom.se/blog/gitkraken-ai-commit-message
 https://magnussundstrom.se/blog/android-emulator-special-characters
+https://magnussundstrom.se/blog/pop-apply-stash-gitkraken
